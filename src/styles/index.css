@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    --feature: normal normal 400 32px/32px 'Outfit';
+    --title: normal normal 400 24px/24px 'Outfit';
+    --mini-title: normal normal 600 18px/20px 'Outfit';
+    --copy16: normal normal 400 16px/18px 'Overpass';
+    --copy14: normal normal 400 14px/16px 'Overpass';
+    --copy12: normal normal 400 12px/14px 'Overpass';
+    --snow: #fff;
+    --cream: #F2F2E7;
+    --sunshine: #FFFC9C;
+    --skies: #A5D8D6;
+    --lime: #CBD31C;
+    --olive: #3C5936;
+    --slate: #979797;
+    --dark: #1E1E1E;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .react-app-link-container {
+        display: flex !important;
+    }
+
+    .react-app-container {
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(140deg, #D1CB0A 0%, #14B6AF  100%);
+        background-size: 400% 400%;
+        -webkit-animation: Gradient 15s ease-in-out infinite;
+        -moz-animation: Gradient 15s ease-in-out infinite;
+        animation: Gradient 15s ease-in-out infinite;
+    }
+
+    /* Animation */
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+
+    @-moz-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+
+}

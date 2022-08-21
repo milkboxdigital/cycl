@@ -1,0 +1,19 @@
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 24px; /* Set a specific slider handle width */
+    height: 24px; /* Slider handle height */
+    background: var(--lime); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+    width: 24px; /* Set a specific slider handle width */
+    height: 24px; /* Slider handle height */
+    background: var(--lime); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    z-index: 2;
+    border-radius: 50%;
+  }
